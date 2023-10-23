@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Food & Drink</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./globalStyle.css" />
+    <link rel="stylesheet" href="./components.css" />
+    <link rel="stylesheet" href="menu.css">
+    <!-- AOS css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container">
+        <div class="nav__wrapper">
+          <a href="./index.html" class="logo">
+            <img src="./images/logo.png" alt="Drink & Food" />
+          </a>
+          <nav>
+            <div class="nav__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-menu"
+              >
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__bgOverlay"></div>
+            <ul class="nav__list">
+              <div class="nav__close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-x"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </div>
+              <div class="nav__list__wrapper">
+                <li><a class="nav__link" href="./index.html">Home</a></li>
+                <li><a class="nav__link" href="./menu.html">Menu</a></li>
+                <li><a class="nav__link" href="./about.html">About</a></li>
+                <li><a class="nav__link" href="./contact.html">Contact</a></li>
+                <li>
+                  <a href="./booking.html" class="btn primary-btn"
+                    >Book Table</a
+                  >
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <section id="page__title" data-aos="fade-up">
+      <div class="container">
+        <h2 class="page__title__text">
+          Explore Our Menu
+        </h2>
+      </div>
+    </section>
+
+    <section id="ourSpecials" data-aos="fade-up">
+      <div class="coontainer">
+        <h3 class="ourSpecials__title">Our Specials</h3>
+        <div class="ourSpecials__wrapper">
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/burgerimg.jpg" alt="food">
+            </div>
+            <div class="ourSpecials__item__info">
+              <h3 class="ourSpecials__item__title">
+                 Veg Burger
+              </h3>
+              <h4 class="ourSpecials__item__price">80rs</h4>
+              <div class="ourSpecials__item__stars">
+                <img src="images/3star.png" alt="stars">
+              </div>
+            </div>
+          </div>
+        <div class="ourSpecials__item">
+          <div class="ourSpecials__item__img">
+            <img src="./images/20guratidish.png" alt="food">
+          </div>
+          <div class="ourSpecials__item__info">
+            <h3 class="ourSpecials__item__title">
+              Khandvi
+            </h3>
+            <h4 class="ourSpecials__item__price">120rs</h4>
+            <div class="ourSpecials__item__stars">
+              <img src="images/3star.png" alt="stars">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dishGrid" data-aos="fade-down">
+      <div class="container">
+        <h2 class="dishGrid__title">Top Dishes</h2>
+        <div class="dishGrid__wrapper">
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/7biryanifooditem.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Chicken Biryani</h3>
+              <h3 class="dishGrid__item__price">200rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/13idli.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Idli</h3>
+              <h3 class="dishGrid__item__price">110rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/18pastery.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Pastry</h3>
+              <h3 class="dishGrid__item__price">60rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dishGrid" data-aos="fade-up">
+      <div class="container">
+        <h2 class="dishGrid__title">Breakfast</h2>
+        <div class="dishGrid__wrapper">
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/food-2.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Salad</h3>
+              <h3 class="dishGrid__item__price">70rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/food-4.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">French fries</h3>
+              <h3 class="dishGrid__item__price">120rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/food-7.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Upma</h3>
+              <h3 class="dishGrid__item__price">60rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/16pasta.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Pasta</h3>
+              <h3 class="dishGrid__item__price">100rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/23chai.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Chai</h3>
+              <h3 class="dishGrid__item__price">10rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dishGrid" data-aos="fade-up">
+      <div class="container">
+        <h2 class="dishGrid__title">Lunch</h2>
+        <div class="dishGrid__wrapper">
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/21pizza.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Pizza</h3>
+              <h3 class="dishGrid__item__price">240rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/22momos.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Momos</h3>
+              <h3 class="dishGrid__item__price">110rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/17rasgulla.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Gulab Jamun</h3>
+              <h3 class="dishGrid__item__price">60rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/14kuchbhi.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Dahi bade</h3>
+              <h3 class="dishGrid__item__price">115rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/5foodnamechinesh.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Special Dish</h3>
+              <h3 class="dishGrid__item__price">160rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dishGrid" data-aos="fade-up">
+      <div class="container">
+        <h2 class="dishGrid__title">Dinner</h2>
+        <div class="dishGrid__wrapper">
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/7biryanifooditem.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Chicken Biryani</h3>
+              <h3 class="dishGrid__item__price">250rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/9sandwichfooditem.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Sandwich</h3>
+              <h3 class="dishGrid__item__price">115rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/4foodname.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Fish</h3>
+              <h3 class="dishGrid__item__price">160rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/food-5.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Special dish</h3>
+              <h3 class="dishGrid__item__price">200rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+          <div class="dishGrid__item">
+            <div class="dishGrid__item__img">
+              <img src="images/sodapdf-converted.png" alt="food img" />
+            </div>
+            <div class="dishGrid__item__info">
+              <h3 class="dishGrid__item__title">Chicken Gravy</h3>
+              <h3 class="dishGrid__item__price">250rs</h3>
+              <div class="dishGrid__item__stars">
+                <img src="images/3star.png" alt="stars" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__col1">
+            <div class="footer__logo">
+              <img src="./images/logo.png" alt="Food & Drink" />
+            </div>
+            <p class="footer__desc">
+              Fresh and delicious traditional Bangladeshi food to delight the
+              whole family.
+            </p>
+            <div class="footer__socials">
+              <h4 class="footer__socials__title">Follow Us</h4>
+              <ol>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                      <path
+                        d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="footer__col2">
+            <h3 class="footer__text__title">
+              Links
+            </h3>
+            <ol class="footer__text">
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./menu.html">Menu</a>
+              </li>
+              <li>
+                <a href="./booking.html">Book Table</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./contact.html">Contact</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ol>
+          </div>
+          <div class="footer__col2">
+            <h3 class="footer__text__title">
+              Support
+            </h3>
+            <ol class="footer__text">
+              <li>
+                <a href="./contact.html">Contact</a>
+              </li>
+              <li>
+                <a href="#">Support Center</a>
+              </li>
+              <li>
+                <a href="#">Feedback</a>
+              </li>
+            </ol>
+          </div>
+          <div class="footer__col2">
+            <h3 class="footer__text__title">
+              Contact
+            </h3>
+            <ol class="footer__text">
+              <li>
+                <a href="tel:6260025668">6260025668</a>
+              </li>
+              <li>
+                <a href="anamikagajbhiye52@gmail.com">anamikagajbhiye52@gmail.com</a>
+              </li>
+              <li>
+                <a href="#">Mohli,Sagar Dist. Seoni(M.P.)</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="container">
+        <p class="copyright__text">
+          © Copyright 2023 Anamika❤️ | All Rights Reserved
+        </p>
+      </div>
+    </div>
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
